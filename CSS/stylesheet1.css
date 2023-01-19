@@ -1,0 +1,26 @@
+body {
+  background-color: #b4b4b4;
+}
+p {
+  color: #3c3c3c;
+}
+
+.heading1 {
+  color: rgb(247, 4, 4);
+  background-color: rgb(254, 186, 0);
+}
+
+.heading2 {
+  color: rgba(71, 255, 86, 0.5);
+  background-color: rgba(105, 71, 255, 0.5);
+}
+
+.heading3 {
+  color: hsl(61, 100%, 50%);
+  background-color: hsl(10, 100%, 50%);
+}
+
+.heading4 {
+  color: hsla(299, 97%, 50%, 0.5);
+  background-color: hsla(114, 93%, 22%, 0.5);
+}
