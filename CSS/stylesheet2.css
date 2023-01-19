@@ -1,0 +1,94 @@
+h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-image: url(/Images/codecode.webp);
+}
+
+.container1 {
+  padding: 16px;
+  margin: 16px;
+  background-color: cadetblue;
+}
+
+.p1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-size: x-large;
+  font-weight: 16px;
+  font-variant: small-caps;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+.div1 {
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+  background-image: url(/Images/justit.png);
+  background-size: 300px 200px;
+  border-style: double;
+  border-radius: 50%;
+  border-color: rgb(42, 165, 136);
+  border-width: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container2 {
+  padding: 16px;
+  margin: 16px;
+  background-color: rgb(219, 108, 61);
+  clear: both;
+  border-style: dashed;
+}
+
+.p2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  text-align: center;
+}
+
+.div2 {
+  height: 200px;
+  width: 300px;
+  background-image: url(/Images/HTML.png);
+  background-size: 300px 200px;
+  border-style: dashed;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container3 {
+  padding: 16px;
+  margin: 16px;
+  background-color: rgb(87, 118, 229);
+  border-style: groove;
+}
+
+.p3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  font-size: x-large;
+  font-weight: 16px;
+  border-bottom-style: groove;
+  border-left-style: groove;
+  border-right-style: groove;
+  border-color: coral;
+  text-align: center;
+}
+.div3 {
+  background-image: url(/Images/css.png);
+  height: 200px;
+  width: 300px;
+  background-size: 300px 200px;
+  border-style: groove;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
