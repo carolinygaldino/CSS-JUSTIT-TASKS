@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-color: rgb(2, 30, 31);
+  min-height: 100%;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "mainpic mainpic mainpic"
+    "content content verticalnav"
+    "footer footer footer";
+
+  grid-template-rows: 100px 50px 300px auto 100px;
+  grid-template-columns: 35% 35% 30%;
+}
+
+.header {
+  grid-area: header;
+  background-color: burlywood;
+}
+
+.navigation {
+  grid-area: nav;
+  background-color: beige;
+}
+
+.picarea {
+  grid-area: mainpic;
+  background-color: rgb(244, 224, 197);
+}
+
+.content {
+  grid-area: verticalnav;
+  background-color: beige;
+}
+
+.verticalnavigation {
+  grid-area: content;
+  background-color: burlywood;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: rgb(244, 224, 197);
+}
+
+.div1,
+.div2,
+.div3 {
+  margin: 20px;
+  height: 100px;
+  background-color: blue;
+  width: 350px;
+}
+*/ .div1 {
+  transform: translate(50px, 200px);
+}
+
+.div2 {
+  transform: rotate(30deg);
+}
+
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: menu;
+}
+.item3 {
+  grid-area: main;
+}
+.item4 {
+  grid-area: right;
+}
+.item5 {
+  grid-area: footer;
+}
+
+.grid-container {
+  min-height: 100px;
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu main main main right right"
+    "menu footer footer footer footer footer";
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.pic1 {
+  transform: translate(40px 0px);
+}
+
+.pic2 {
+  transform: skewX(20deg);
+}
+
+.pic3 {
+  transform: rotate(180deg);
+}
